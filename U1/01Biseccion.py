@@ -15,7 +15,7 @@ fa = ecuation(a)
 fb = ecuation(b)
 fm = ecuation(m)
 
-print('Root fot the function x²-2 \n')
+print('Root of the function x²-2 \n')
 
 print('-'*65)
 
