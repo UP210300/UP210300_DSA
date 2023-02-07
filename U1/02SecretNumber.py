@@ -17,11 +17,11 @@ number = int(random.randint(0, 1000))
 #print(number)
 guess = int( input('Enter your guess: '))
 counter = 1
-giveUp = False
+giveUp = 0
 
 if (guess != number):
     print('Ups, looks like you did not got it right... Try again')
-    while (guess != number or giveUp== False):
+    while (guess != number or giveUp== 0):
         if(guess > number):
             print('Too high, try to lower your guess')
             guess = int( input('Enter your guess: '))
@@ -29,12 +29,13 @@ if (guess != number):
             print('Too low, try to upper your guess')
             guess = int( input('Enter your guess: '))
         counter +=1
-        if(counter == 10):
-            giveUp= bool(input('Do you give up? If you do type 1, if you wanna keep guessing type 0 '))
-            if(giveUp == True):
-                print('The secret number was: ', number)
+        if(counter == 10 or counter == 20):
+            giveUp= int(input('Do you give up? If you do type 1, if you wanna keep guessing type 0 '))
+            if(giveUp == 1):
+                print('The secret number was: ', number, '\nThanks for playing')
                 break
-    print('Congratulations, you guess the number!!!')        
+    if (guess == number):
+        print('Congratulations, you guess the number!!!')        
 else:
     print('Congratulations, you guess the number!!!')
 
