@@ -12,7 +12,7 @@ print(
     '''
 )
 
-
+#generate random number
 number = int(random.randint(0, 1000))
 #print(number)
 guess = int( input('Enter your guess: '))

@@ -1,3 +1,4 @@
+#Tickets
 
 amount = int( input('Enter the amount of money that you have: $'))
 tickets = 0
