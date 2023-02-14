@@ -9,14 +9,14 @@
 <div align ="center">
 
 <img alt="img 1" height="150" src="Images/1.png"/>  
-<img alt="img 2" height="150" src="Images/2.png"/>  
-<img alt="img 3" height="150" src="Images/3.png"/>  
+<img alt="img 2" height="150" src="Images/3.png"/>  
+<img alt="img 3" height="150" src="Images/2.png"/>  
 
 </div>
 <br>
 
-![GitHub contributors](https://img.shields.io/github/contributors/UP210300/UP210300_CPP)
-![GitHub last commit](https://img.shields.io/github/last-commit/UP210300/UP210300_CPP)
+![GitHub contributors](https://img.shields.io/github/contributors/UP210300/UP210300_DSA)
+![GitHub last commit](https://img.shields.io/github/last-commit/UP210300/UP210300_DSA)
 
 This programming course is about  _**Data Structures and Algorithms**_, here you will find the main topics that will be reviewed as well as examples and exercises for each topic.
 
@@ -33,10 +33,9 @@ This programming course is about  _**Data Structures and Algorithms**_, here you
 
 This course is conformed of four main parts:
 
-> 1. [U1](https://github.com/UP210300/UP210300_DSA/tree/main/U1) Programming introduction
-> 2. [U2](https://github.com/UP210300/UP210300_CPP/tree/main/U2) Control structures and cycles
-> 3. [U3](https://github.com/UP210300/UP210300_CPP/tree/main/U3) Functions
-> 4. [U4](https://github.com/UP210300/UP210300_CPP/tree/main/U4) Files and arrays
+> 1. [U1](https://github.com/UP210300/UP210300_DSA/tree/main/U1) 
+> 2. [U2](https://github.com/UP210300/UP210300_DSA/tree/main/U2) 
+
 
 ## Find me 
 
