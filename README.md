@@ -8,9 +8,9 @@
 
 <div align ="center">
 
-<img alt="comdisc" height="150" src="Imagenes/1.png"/>  
-<img alt="c++" height="150" src="Imagenes/2.png"/>  
-<img alt="com" height="150" src="Imagenes/3.png"/>  
+<img alt="img 1" height="150" src="Images/1.png"/>  
+<img alt="img 2" height="150" src="Images/2.png"/>  
+<img alt="img 3" height="150" src="Images/3.png"/>  
 
 </div>
 <br>
