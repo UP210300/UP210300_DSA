@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Programming Course
+# DSA Course
 
 </div>
 
