@@ -27,11 +27,12 @@ ops = { '+' : operator.add,
 
 while p[n] != ')':
     if p[n] in ['+','-','*','/','^']:
+        
         b=stack.pop()
         a=stack.pop()
 
         op = p[n]
-        priority (op)
+        prior = priority (op)
         
         if p[n] == '+':
             c= ops['+'](a,b)
@@ -41,6 +42,8 @@ while p[n] != ')':
             c= ops['*'](a,b)
         elif p[n] == '/':
             c= ops['/'](a,b)
+        elif p[n] == '^':
+            c= ops['^'](a,b)
         stack.append(c) 
     else:
         operand = int(p[n])
